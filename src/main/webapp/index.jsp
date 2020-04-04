@@ -12,6 +12,6 @@
 </head>
 <body>
 <h3>入门程序</h3>
-<a href="/hello">Index入门</a>
+<a href="hello">Index入门</a>
 </body>
 </html>
