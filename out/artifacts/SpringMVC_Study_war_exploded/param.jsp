@@ -40,13 +40,15 @@
     </form>--%>
 
 
-<%--自定义类型转换器--%>
+<%--自定义类型转换器
 <form action="param/saveUser" method="post">
     姓名：<input type="text" name="uname"/><br/>
     密码：<input type="text" name="age"/><br/>
-    金额：<input type="text" name="date"/><br/>
+    日期：<input type="text" name="date"/><br/>
     <input type="submit" value="提交"/>
-</form>
+</form>--%>
 
+<%--拿原生servletAPI--%>
+<a href="param/testServlet">Servlet原生API</a>
 </body>
 </html>
