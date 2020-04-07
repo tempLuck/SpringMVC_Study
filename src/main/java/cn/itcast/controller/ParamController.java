@@ -1,6 +1,7 @@
 package cn.itcast.controller;
 
 import cn.itcast.domain.Account;
+import cn.itcast.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -25,6 +26,18 @@ public class ParamController {
     @RequestMapping("/saveAccount")
     public String saveAccount(Account account){
         System.out.println(account);
+        System.out.println("saveAccount()执行了");
+        return "success";
+    }
+
+    /**
+     * 自定义类型转换器
+     * @param user
+     * @return
+     */
+    @RequestMapping("/saveUser")
+    public String saveUser(User user){
+        System.out.println(user);
         System.out.println("saveAccount()执行了");
         return "success";
     }
